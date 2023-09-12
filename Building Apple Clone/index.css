@@ -51,3 +51,48 @@
 .back-video video{
     width: 100%;
 }
+
+.service img{
+    height: 30px;
+    border-radius: 50%;
+    width: 30px;
+}
+
+.service a{
+    color: blue;
+}
+
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    background-color: rgba(0, 0, 0, 0.099);
+    margin-top: 30px;
+}
+
+.titles{
+    font-size: 25px;
+}
+
+.products{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    background-color: rgba(0, 0, 0, 0.099);
+}
+
+.product img{
+    height: 90px;
+}
+
+.product a{
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
