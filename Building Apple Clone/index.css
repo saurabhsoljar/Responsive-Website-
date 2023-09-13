@@ -95,4 +95,46 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 20px;
+}
+
+.card img{
+    height: 220px;
+    
+}
+
+.card{
+    height: 470px;
+    width: 370px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 30px;
+    margin-top: 25px;
+    transition: 0.7s;
+}
+
+.card-container{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.card h1{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.card p{
+    margin-bottom: 20px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 35px;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    cursor: pointer;
 }
