@@ -235,6 +235,10 @@
     padding: 20px;
 }
 
+.menuopen{
+    display: none;
+}
+
 @media only screen and (max-width:600px) {
     .navbar ul{
         display: none;
@@ -242,5 +246,23 @@
     .navbar{
         display: flex;
         justify-content: space-around;
+    }
+    .navbar ul{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-bottom: 40px;
+        position: absolute;
+        background-color: white;
+        opacity: 0;
+    }
+    .navbar ul li{
+        padding-top: 30px;
+    }
+    .menuopen{
+        display: block;
+        position: absolute;
+        right: 4%;
+        top: 25%;
     }
 }
